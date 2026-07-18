@@ -1,0 +1,24 @@
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Environment
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Build
+dist/
+build/
+
+# OS generated
+desktop.ini
