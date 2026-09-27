@@ -1,21 +1,31 @@
-# IPortifolio
+## 📱 Responsividade
 
-Portfólio estático construído com foco em apresentação pessoal e projetos.
+O site possui layout responsivo e pode ser acessado por computadores,
+tablets e celulares.
 
-## Tecnologias principais
+## 📚 Aprendizados
 
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
+Durante o desenvolvimento deste projeto, pratiquei:
 
-## Método de construção
+- Estruturação semântica com HTML
+- Estilização e responsividade com CSS
+- Interações com JavaScript
+- Componentes do Bootstrap
+- Organização de arquivos
+- Versionamento com Git e GitHub
+- Publicação com GitHub Pages
+- Acessibilidade básica
 
-A página foi criada usando o template IPortifolio, estruturada com HTML e estilos em CSS, com componentes responsivos do Bootstrap. O JavaScript é usado para interações e animações.
+## 📬 Contato
 
-## Estrutura do projeto
+- LinkedIn: [Andressa Alves](https://www.linkedin.com/in/andressa-alves-simão/)
+- GitHub: [Andressa-Sim](https://github.com/Andressa-Sim)
+- E-mail: andressaasimao@gmail.com
 
-- `index.html` e páginas de detalhes para navegação
-- `assets/css/` para estilos
-- `assets/js/` para scripts
-- `assets/vendor/` para dependências como Bootstrap, GLightbox, Swiper e Typed.js
+## 📌 Status do projeto
+
+O portfólio está publicado e continua recebendo melhorias.
+
+---
+
+Desenvolvido por **Andressa Alves Simão**.

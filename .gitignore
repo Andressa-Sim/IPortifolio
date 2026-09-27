@@ -14,6 +14,7 @@ yarn-error.log*
 
 # IDE
 .vscode/
+.history/
 *.code-workspace
 
 # Build
