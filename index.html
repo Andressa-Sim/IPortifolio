@@ -1,306 +1,404 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Andressa Alves | Desenvolvedora Web</title>
+    <meta
+      name="description"
+      content="Portfólio de Andressa Alves, Suporte de TI | Desenvolvedora Web | Sistema de Informação."
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Andressa Alves |  Desenvolvedora Web </title>
-  <meta name="description" content="Portfólio de Andressa Alves, Suporte de TI | Desenvolvedora Web | Sistema de Informação.">
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
 
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
-</head>
+  <body class="index-page">
+    <div class="page-shell">
+      <div class="glow glow-left" aria-hidden="true"></div>
+      <div class="glow glow-right" aria-hidden="true"></div>
 
-<body class="index-page">
-  <div class="page-shell">
-    <div class="glow glow-left" aria-hidden="true"></div>
-    <div class="glow glow-right" aria-hidden="true"></div>
+      <header id="header" class="site-header">
+        <a href="#hero" class="brand" aria-label="Voltar ao início">aa.</a>
 
-    <header id="header" class="site-header">
-      <a href="#hero" class="brand" aria-label="Voltar ao início">aa.</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="navmenu"
+        >
+          <i class="bi bi-list" aria-hidden="true"></i>
+        </button>
 
-      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navmenu">
-        <i class="bi bi-list" aria-hidden="true"></i>
-      </button>
+        <nav id="navmenu" class="navmenu" aria-label="Navegação principal">
+          <a href="#hero" class="active">Sobre</a>
+          <a href="#Habilidades">Habilidades</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
+        </nav>
 
-      <nav id="navmenu" class="navmenu" aria-label="Navegação principal">
-        <a href="#hero" class="active">Sobre</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projetos</a>
-        <a href="#contact">Contato</a>
-      </nav>
+        <a href="#contact" class="header-cta">Fale Comigo</a>
+      </header>
 
-      <a href="#contact" class="header-cta">Fale Comigo</a>
-    </header>
-
-    <main>
-      <section id="hero" class="hero-section" aria-labelledby="hero-title">
-        <div class="hero-copy" data-aos="fade-up">
-          <div class="hero-heading">
-            <span class="availability">Em busca de oportunidade para tecnologia</span>
-            <h1 id="hero-title">Andressa Alves</h1>
-            <p class="hero-role">Suporte de TI | Desenvolvedora Web | Sistema de Informação</p>
-          </div>
-
-          <p class="hero-description"><p class="hero-description">
-  Formanda em Sistemas de Informação, desenvolvo soluções web
-  funcionais e responsivas. Busco minha primeira oportunidade em
-  tecnologia para aplicar meus conhecimentos, colaborar com a equipe
-  e continuar evoluindo profissionalmente.
-.</p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Projetos</a>
-            <a class="button button-secondary" href="#contact">Contato</a>
-          </div>
-        </div>
-
-        <div class="hero-portrait" data-aos="zoom-in" data-aos-delay="100">
-          <span class="portrait-ring" aria-hidden="true"></span>
-          <img src="assets/img/portrait-andressa.png" alt="Retrato de Andressa Alves">
-        </div>
-      </section>
-
-      <section id="skills" class="skills-section section-layout" aria-labelledby="skills-title">
-        <div class="section-intro" data-aos="fade-up">
-          <div class="eyebrow"><span></span>Especialidades</div>
-          <h2 id="skills-title">Minhas Habilidades Técnicas</h2>
-          <p>Foco no desenvolvimento de interfaces robustas, limpas e perfeitamente responsivas seguindo padrões modernos.</p>
-        </div>
-
-        <div class="skills-panel" data-aos="fade-up" data-aos-delay="100">
-          <div class="skill-list">
-            <div class="skill-item">
-              <div class="skill-meta"><span>HTML</span><strong>100%</strong></div>
-              <div class="progress-track"><span style="--progress: 100%"></span></div>
+      <main>
+        <section id="hero" class="hero-section" aria-labelledby="hero-title">
+          <div class="hero-copy" data-aos="fade-up">
+            <div class="hero-heading">
+              <span class="availability"
+                >Em busca de oportunidade para tecnologia</span
+              >
+              <h1 id="hero-title">Andressa Alves</h1>
+              <p class="hero-role">
+                Suporte de TI | Desenvolvedora Web | Sistema de Informação
+              </p>
             </div>
-            <div class="skill-item">
-              <div class="skill-meta"><span>CSS</span><strong>90%</strong></div>
-              <div class="progress-track"><span style="--progress: 90%"></span></div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-meta"><span>JavaScript</span><strong>75%</strong></div>
-              <div class="progress-track"><span style="--progress: 75%"></span></div>
-            </div>
-          </div>
 
-          <div class="other-skills">
-            <h3>Outras Tecnologias &amp; Bancos</h3>
-            <div class="skill-tags" aria-label="Outras tecnologias">
-              <span>Java</span>
-              <span>Python</span>
-              <span>SQL/NoSQL</span>
-              <span>TypeScript</span>
+            <p class="hero-description"></p>
+            <p class="hero-description">
+              Formanda em Sistemas de Informação, desenvolvo soluções web
+              funcionais e responsivas. Busco minha primeira oportunidade em
+              tecnologia para aplicar meus conhecimentos, colaborar com a equipe
+              e continuar evoluindo profissionalmente. .
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">Projetos</a>
+              <a class="button button-secondary" href="#contact">Contato</a>
+              <a
+                class="button button-secondary"
+                href="https://www.linkedin.com/in/andressa-alves-simão/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+                Ver LinkedIn
+              </a>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section id="projects" class="projects-section" aria-labelledby="projects-title">
-        <div class="section-intro projects-intro" data-aos="fade-up">
-          <div class="eyebrow"><span></span>Projetos</div>
-          <h2 id="projects-title">Meus Projetos</h2>
-        </div>
+          <div class="hero-portrait" data-aos="zoom-in" data-aos-delay="100">
+            <span class="portrait-ring" aria-hidden="true"></span>
+            <img
+              src="assets/img/portrait-andressa.png"
+              alt="Retrato de Andressa Alves"
+            />
+          </div>
+        </section>
 
-        <section id="projects" class="services-section" aria-labelledby="projects-title">
-  <div class="section-intro services-intro" data-aos="fade-up">
-    <div class="eyebrow">
-      <span></span>
-      Portifólio
+        <section
+          id="Habilidades"
+          class="Habilidades-section section-layout"
+          aria-labelledby="Habilidades-title"
+        >
+          <div class="section-intro" data-aos="fade-up">
+            <div class="eyebrow"><span></span>Especialidades</div>
+            <h2 id="Habilidades-title">Minhas Habilidades Técnicas</h2>
+          </div>
+
+          <div class="skills-panel" data-aos="fade-up" data-aos-delay="100">
+            <div class="other-skills">
+              <h3>Desenvolvimento Front-end</h3>
+
+              <div class="skill-tags" aria-label="Tecnologias de front-end">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Bootstrap</span>
+                <span>TypeScript</span>
+              </div>
+            </div>
+
+            <div class="other-skills">
+              <h3>Programação e Banco de Dados</h3>
+
+              <div class="skill-tags" aria-label="Programação e banco de dados">
+                <span>Java</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>MySQL</span>
+                <span>NoSQL</span>
+              </div>
+            </div>
+
+            <div class="other-skills">
+              <h3>Ferramentas e Conhecimentos</h3>
+
+              <div class="skill-tags" aria-label="Ferramentas e conhecimentos">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Figma</span>
+                <span>Metodologias Ágeis</span>
+                <span>Suporte Técnico</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="projects"
+          class="services-section"
+          aria-labelledby="projects-title"
+        >
+          <div class="section-intro services-intro" data-aos="fade-up">
+            <div class="eyebrow">
+              <span></span>
+              Portifólio
+            </div>
+
+            <h2 id="projects-title">Projetos em destaque</h2>
+
+            <p>
+              Projetos desenvolvidos para aplicar meus conhecimentos, solucionar
+              problemas e fortalecer minha experiência prática.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <!-- Comparador Inteligente -->
+            <article
+              class="service-card"
+              data-aos="fade-up"
+              data-aos-delay="50"
+            >
+              <div class="service-icon">
+                <i class="bi bi-cart-check" aria-hidden="true"></i>
+              </div>
+
+              <div>
+                <h3>Comparador Inteligente de Compras</h3>
+
+                <p>
+                  Aplicação web que compara preços e prazos de entrega,
+                  indicando a melhor opção de compra para o usuário.
+                </p>
+
+                <p class="project-technologies">HTML • CSS • JavaScript</p>
+
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/Andressa-Sim/comparador-inteligente-de-compras"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Uptime Monitor -->
+            <article
+              class="service-card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-icon">
+                <i class="bi bi-activity" aria-hidden="true"></i>
+              </div>
+
+              <div>
+                <h3>Uptime Monitor</h3>
+
+                <p>
+                  Aplicação criada para monitorar a disponibilidade de sites e
+                  facilitar a identificação de possíveis interrupções.
+                </p>
+
+                <p class="project-technologies">
+                  Python • Flask • HTML • Docker
+                </p>
+
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/Andressa-Sim/uptime-monitor"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver código
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Portfólio -->
+            <article
+              class="service-card"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <div class="service-icon">
+                <i class="bi bi-person-workspace" aria-hidden="true"></i>
+              </div>
+
+              <div>
+                <h3>Portfólio Profissional</h3>
+
+                <p>
+                  Página responsiva desenvolvida para apresentar minha
+                  trajetória, habilidades técnicas e projetos na área de
+                  tecnologia.
+                </p>
+
+                <p class="project-technologies">
+                  HTML • CSS • JavaScript • Bootstrap
+                </p>
+
+                <div class="project-actions">
+                  <a
+                    href="https://andressa-sim.github.io/IPortifolio/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver projeto
+                  </a>
+
+                  <a
+                    href="https://github.com/Andressa-Sim/IPortifolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver código
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section
+          id="contact"
+          class="contact-section section-layout"
+          aria-labelledby="contact-title"
+        >
+          <div class="contact-info" data-aos="fade-up">
+            <div class="section-intro contact-intro">
+              <div class="eyebrow eyebrow-green"><span></span>Contato</div>
+              <h2 id="contact-title">Vamos criar algo incrível juntos?</h2>
+            </div>
+
+            <div class="contact-list">
+              <a class="contact-item" href="mailto:andressaasimao@gmail.com">
+                <span class="contact-icon"
+                  ><i class="bi bi-envelope" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><small>Email</small
+                  ><strong>andressaasimao@gmail.com</strong></span
+                >
+              </a>
+
+              <div class="contact-item">
+                <span class="contact-icon"
+                  ><i class="bi bi-geo-alt" aria-hidden="true"></i
+                ></span>
+                <span
+                  ><small>Endereço</small
+                  ><strong>Uberlândia, MG - Brasil</strong></span
+                >
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://github.com/Andressa-Sim"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub de Andressa"
+                title="Acessar GitHub"
+              >
+                <i class="bi bi-github" aria-hidden="true"></i>
+              </a>
+
+              <a
+                href="mailto:andressaasimao@gmail.com"
+                aria-label="Enviar e-mail para Andressa"
+                title="Enviar e-mail"
+              >
+                <i class="bi bi-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-cta" data-aos="fade-up" data-aos-delay="100">
+            <span class="contact-cta-icon">
+              <i class="bi bi-chat-dots" aria-hidden="true"></i>
+            </span>
+
+            <h2>Vamos conversar?</h2>
+
+            <p>
+              Estou em busca da minha primeira oportunidade em tecnologia. Entre
+              em contato para conhecer melhor meus projetos, habilidades e
+              experiências.
+            </p>
+
+            <div class="contact-cta-actions">
+              <a
+                class="button button-primary"
+                href="mailto:andressaasimao@gmail.com"
+              >
+                <i class="bi bi-envelope" aria-hidden="true"></i>
+                Enviar e-mail
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://github.com/Andressa-Sim"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bi bi-github" aria-hidden="true"></i>
+                Ver GitHub
+              </a>
+
+              <a
+                class="button button-secondary"
+                href="https://www.linkedin.com/in/andressa-alves-simão/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+                Ver LinkedIn
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2026 Andressa Alves. Todos os direitos reservados.</p>
+        <a href="#hero" class="footer-brand" aria-label="Voltar ao início"
+          >aa.</a
+        >
+      </footer>
     </div>
 
-    <h2 id="projects-title">Projetos em destaque</h2>
+    <a
+      href="#hero"
+      id="scroll-top"
+      class="scroll-top"
+      aria-label="Voltar ao topo"
+      ><i class="bi bi-arrow-up-short" aria-hidden="true"></i
+    ></a>
+    <div id="preloader" aria-hidden="true"></div>
 
-    <p>
-      Projetos desenvolvidos para aplicar meus conhecimentos,
-      solucionar problemas e fortalecer minha experiência prática.
-    </p>
-  </div>
-
-  <div class="service-grid">
-
-    <!-- Comparador Inteligente -->
-    <article class="service-card" data-aos="fade-up" data-aos-delay="50">
-      <div class="service-icon">
-        <i class="bi bi-cart-check" aria-hidden="true"></i>
-      </div>
-
-      <div>
-        <h3>Comparador Inteligente de Compras</h3>
-
-        <p>
-          Aplicação web que compara preços e prazos de entrega,
-          indicando a melhor opção de compra para o usuário.
-        </p>
-
-        <p class="project-technologies">
-          HTML • CSS • JavaScript
-        </p>
-
-        <div class="project-actions">
-          <a
-            href="https://github.com/Andressa-Sim/comparador-inteligente-de-compras"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver código
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Uptime Monitor -->
-    <article class="service-card" data-aos="fade-up" data-aos-delay="100">
-      <div class="service-icon">
-        <i class="bi bi-activity" aria-hidden="true"></i>
-      </div>
-
-      <div>
-        <h3>Uptime Monitor</h3>
-
-        <p>
-          Aplicação criada para monitorar a disponibilidade de sites
-          e facilitar a identificação de possíveis interrupções.
-        </p>
-
-        <p class="project-technologies">
-          Python • Flask • HTML • Docker
-        </p>
-
-        <div class="project-actions">
-          <a
-            href="https://github.com/Andressa-Sim/uptime-monitor"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver código
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <!-- Portfólio -->
-    <article class="service-card" data-aos="fade-up" data-aos-delay="150">
-      <div class="service-icon">
-        <i class="bi bi-person-workspace" aria-hidden="true"></i>
-      </div>
-
-      <div>
-        <h3>Portfólio Profissional</h3>
-
-        <p>
-          Página responsiva desenvolvida para apresentar minha trajetória,
-          habilidades técnicas e projetos na área de tecnologia.
-        </p>
-
-        <p class="project-technologies">
-          HTML • CSS • JavaScript • Bootstrap
-        </p>
-
-        <div class="project-actions">
-          <a
-            href="https://andressa-sim.github.io/IPortifolio/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver projeto
-          </a>
-
-          <a
-            href="https://github.com/Andressa-Sim/IPortifolio"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Ver código
-          </a>
-        </div>
-      </div>
-    </article>
-
-  </div>
-</section>
-
-      <section id="contact" class="contact-section section-layout" aria-labelledby="contact-title">
-        <div class="contact-info" data-aos="fade-up">
-          <div class="section-intro contact-intro">
-            <div class="eyebrow eyebrow-green"><span></span>Contato</div>
-            <h2 id="contact-title">Vamos criar algo incrível juntos?</h2>
-          </div>
-
-          <div class="contact-list">
-            <a class="contact-item" href="mailto:andressaasimao@gmail.com">
-              <span class="contact-icon"><i class="bi bi-envelope" aria-hidden="true"></i></span>
-              <span><small>Email</small><strong>andressaasimao@gmail.com</strong></span>
-            </a>
-            <a class="contact-item" href="tel:+5534997716268">
-              <span class="contact-icon"><i class="bi bi-telephone" aria-hidden="true"></i></span>
-              <span><small>Telefone</small><strong>+55 34 99771-6268</strong></span>
-            </a>
-            <div class="contact-item">
-              <span class="contact-icon"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
-              <span><small>Endereço</small><strong>Uberlândia, MG - Brasil</strong></span>
-            </div>
-          </div>
-
-          <div class="social-area">
-            <h3>Redes Sociais</h3>
-            <div class="social-links">
-              <a href="#" aria-label="LinkedIn de Andressa"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
-              <a href="#" aria-label="Perfil de Andressa no X"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <form action="forms/contact.php" method="post" class="contact-form php-email-form" data-aos="fade-up" data-aos-delay="100">
-          <h2>Envie uma Mensagem</h2>
-
-          <div class="form-fields">
-            <div class="form-field">
-              <label for="name-field">Nome</label>
-              <input type="text" name="name" id="name-field" placeholder="Seu nome completo" required>
-            </div>
-            <div class="form-field">
-              <label for="email-field">Email</label>
-              <input type="email" name="email" id="email-field" placeholder="seuemail@exemplo.com" required>
-            </div>
-            <div class="form-field">
-              <label for="subject-field">Assunto</label>
-              <input type="text" name="subject" id="subject-field" placeholder="Como posso te ajudar?" required>
-            </div>
-            <div class="form-field">
-              <label for="message-field">Mensagem</label>
-              <textarea name="message" id="message-field" rows="5" placeholder="Escreva os detalhes do seu projeto ou dúvida..." required></textarea>
-            </div>
-          </div>
-
-          <div class="loading">Enviando</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Sua mensagem foi enviada. Obrigada!</div>
-          <button type="submit">Enviar Mensagem</button>
-        </form>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>© 2024 Andressa Alves. Todos os direitos reservados.</p>
-      <a href="#hero" class="footer-brand" aria-label="Voltar ao início">aa.</a>
-    </footer>
-  </div>
-
-  <a href="#hero" id="scroll-top" class="scroll-top" aria-label="Voltar ao topo"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
-  <div id="preloader" aria-hidden="true"></div>
-
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -1,4 +1,4 @@
-(function() {
+(function () {
   "use strict";
 
   const header = document.querySelector("#header");
@@ -43,7 +43,8 @@
       const section = document.querySelector(link.hash);
       if (!section) return;
 
-      const isCurrent = currentPosition >= section.offsetTop &&
+      const isCurrent =
+        currentPosition >= section.offsetTop &&
         currentPosition < section.offsetTop + section.offsetHeight;
       link.classList.toggle("active", isCurrent);
     });
@@ -76,7 +77,7 @@
       duration: 650,
       easing: "ease-out-cubic",
       once: true,
-      offset: 60
+      offset: 60,
     });
   }
 })();
