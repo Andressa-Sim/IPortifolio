@@ -493,6 +493,16 @@ main section {
     border-color 180ms ease;
 }
 
+.project-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #08050d;
+  object-fit: contain;
+}
+
 .service-card:hover {
   transform: translateY(-5px);
   border-color: var(--border-strong);
